@@ -1,0 +1,203 @@
+body {
+    background: linear-gradient(135deg, #8f9091, #f4f6f8, #a0a0a1);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+header {
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+.logo {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 24px; /* Tamaño del ícono */
+    padding: 10px;
+    border-radius: 50%; /* Hacer el fondo circular */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+    text-align: left;
+}
+
+.dropdown-content li {
+    display: block;
+}
+
+.dropdown-content li a {
+    padding: 10px 15px;
+    color: white;
+}
+
+.dropdown-content li a:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+.jabon-inicio img{
+    width: 700px;
+    
+}
+
+.product {
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1
+}
+
+
+
+.swiper-container {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    max-width: 250px; /* Ajusta el tamaño máximo según sea necesario */
+}
+
+/* Contenedor Swiper */
+.swiper-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+/* Configuración de los slides */
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Imágenes de los productos */
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Ajusta el tamaño máximo según sea necesario */
+}
+
+/* Estilo para los botones de navegación */
+.swiper-button-next, .swiper-button-prev {
+    color: #000; /* Color de los botones */
+    width: 44px; /* Ancho de los botones */
+    height: 44px; /* Altura de los botones */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo de los botones */
+    border-radius: 50%; /* Hacer los botones circulares */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10; /* Asegura que los botones estén encima del contenido */
+}
+
+.swiper-button-next {
+    right: 10px; /* Ajusta la posición a la derecha */
+}
+
+.swiper-button-prev {
+    left: 10px; /* Ajusta la posición a la izquierda */
+}
+
+/* Estilo para la paginación */
+.swiper-pagination {
+    position: absolute;
+    bottom: 10px; /* Ajusta la posición desde el fondo */
+    left: 50%;
+    transform: translateX(-50%); /* Centra la paginación horizontalmente */
+    display: flex;
+    justify-content: center;
+    z-index: 10; /* Asegura que la paginación esté encima del contenido */
+}
+
+/* Opcional: ajustar la apariencia de los puntos de paginación */
+.swiper-pagination-bullet {
+    background: #000; /* Color de los puntos de paginación */
+    width: 10px; /* Tamaño de los puntos */
+    height: 10px; /* Tamaño de los puntos */
+    border-radius: 50%; /* Hacer los puntos circulares */
+    opacity: 1; /* Opacidad de los puntos */
+    margin: 0 4px; /* Espacio entre los puntos */
+}
+
+.swiper-pagination-bullet-active {
+    background: #007bff; /* Color del punto activo */
+}

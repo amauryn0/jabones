@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Jabones en Santo Domingo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+
+
+</head>
+<body>
+    
+     <div class="left-icon">
+            <img class="logo" src="imagenes/icono-jabón.png">
+    </div>
+        
+    
+    
+    <header>
+        <h1>Jabones Naturales RD</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li class="dropdown">
+                    <a href="#products">Productos</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#lavanda">Jabón de Lavanda</a></li>
+                        <li><a href="#menta">Jabón de Menta</a></li>
+                        <li><a href="#almendra">Jabón de Almendra</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Bienvenidos a Jabones Naturales RD</h2>
+        <p>Descubre nuestros jabones hechos a mano con ingredientes naturales de la mejor calidad.</p>
+        <div class="jabon-inicio">
+            <img src="imagenes/jabon-inicio.jpg">
+            
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una empresa local dedicada a la elaboración de jabones artesanales en Santo Domingo. Nuestro compromiso es ofrecer productos saludables y respetuosos con el medio ambiente.</p>
+    </section>
+
+    <section id="products">
+        <h2>Productos</h2>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" id="lavanda">
+                    <img src="imagenes/jabón1.jpg" alt="Jabón de Lavanda">
+                    <h3>Jabón de Lavanda</h3>
+                    <p>Precio: RD$200</p>
+                </div>
+                <div class="swiper-slide" id="menta">
+                    <img src="imagenes/jabón2.jpg" alt="Jabón de Menta">
+                    <h3>Jabón de Menta</h3>
+                    <p>Precio: RD$180</p>
+                </div>
+                <div class="swiper-slide" id="almendra">
+                    <img src="imagenes/jabón3.jpg" alt="Jabón de Almendra">
+                    <h3>Jabón de Almendra</h3>
+                    <p>Precio: RD$220</p>
+                </div>
+            </div>
+            <!-- Agregar paginación si lo deseas -->
+            <div class="swiper-pagination"></div>
+            <!-- Agregar botones de navegación si lo deseas -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Puedes encontrarnos en nuestras redes sociales o enviarnos un correo a contacto@jabonesnaturalesrd.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jabones Naturales RD. Todos los derechos reservados.</p>
+    </footer>
+
+
+    
+       
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
