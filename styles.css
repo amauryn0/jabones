@@ -119,6 +119,7 @@ footer {
 .swiper-container {
     width: 100%;
     height: auto;
+    overflow: hidden;
 }
 
 .swiper-slide {
