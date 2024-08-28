@@ -85,8 +85,11 @@ nav ul li a:hover {
 }
 
 section {
-    padding: 12rem;
-    text-align: center;
+    padding: 2rem;
+     text-align: center;
+}
+#home {
+    padding: 10rem;
 }
 
 h2 {
@@ -117,7 +120,7 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 1
+    padding: 1rem
 }
 
 
@@ -208,3 +211,67 @@ footer {
     background: #007bff; /* Color del punto activo */
 }
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .swiper-slide img {
+        max-width: 200px; /* Adjust max-width for smaller screens */
+    }
+    .logo {
+        display: none;
+    }
+    nav ul {
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: block;
+        text-align: center;
+    }
+
+    .dropdown-content {
+        position: static;
+        width: 100%;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        width: 30px; /* Reduce size for mobile */
+        height: 30px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 8px; /* Smaller bullets for mobile */
+        height: 8px;
+    }
+
+
+   
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 16px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    section {
+        padding: 5rem !important;
+        text-align: center;
+
+    .swiper-slide img {
+        max-width: 150px; /* Further adjust for very small screens */
+
+    }
+   .logo {
+    display: none;
+      }
+
+
+
+}
+header {
+    position: relative !important;
+}
+}
