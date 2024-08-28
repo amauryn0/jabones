@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(135deg, #8f9091, #f4f6f8, #a0a0a1);
+    background: linear-gradient(135deg, gray,#EAE7DD);
     margin: 0;
     font-family: Arial, sans-serif;
 }
@@ -14,7 +14,7 @@ header {
     top: 0px;
     width: 100%;
     text-align: center;
-    
+    z-index: 1000;
     
 }
 .logo {
@@ -24,8 +24,12 @@ header {
     font-size: 24px; /* Tamaño del ícono */
     padding: 10px;
     border-radius: 50%; /* Hacer el fondo circular */
-    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    z-index: 1001; /* Asegura que esté por encima de otros elementos */
+   
+    
 }
+
+
 
 
 
@@ -50,7 +54,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #555;
+    background-color: #0f0e0e;
+    
 }
 
 .dropdown:hover .dropdown-content {
@@ -80,7 +85,7 @@ nav ul li a:hover {
 }
 
 section {
-    padding: 2rem;
+    padding: 12rem;
     text-align: center;
 }
 
@@ -88,7 +93,8 @@ h2 {
     color: #333;
 }
 .jabon-inicio img{
-    width: 700px;
+    width: 100%;
+    
     
 }
 
@@ -162,7 +168,6 @@ footer {
     color: #000; /* Color de los botones */
     width: 44px; /* Ancho de los botones */
     height: 44px; /* Altura de los botones */
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo de los botones */
     border-radius: 50%; /* Hacer los botones circulares */
     display: flex;
     align-items: center;
@@ -202,3 +207,4 @@ footer {
 .swiper-pagination-bullet-active {
     background: #007bff; /* Color del punto activo */
 }
+
